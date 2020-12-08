@@ -13,22 +13,22 @@ import java.util.Scanner;
 public class LittonMainClass 
 {
 	//CLASS CONSTANTS
-	public static final double TAX_RATE = 0.075;						//fixed tax rate of 0.075
+	public static final double TAX_RATE = 0.075;					//fixed tax rate of 0.075
 	public static final String DISCOUNT_NAME_MEMBER = "Member";			//fixed name for discounts for a "Member"
 	public static final String DISCOUNT_NAME_SENIOR = "Senior";			//fixed name for discounts for a "Senior"
-	public static final String DISCOUNT_NAME_NONE = "No Discount";		//fixed name for discounts for "No Discount"
+	public static final String DISCOUNT_NAME_NONE = "No Discount";			//fixed name for discounts for "No Discount"
 	public static final String DISCOUNT_NAME_QUIT = "Quit";				//fixed name for "Quit"
 	public static final double DISCOUNT_RATE_MEMBER = 0.15;				//fixed discount rate of 0.15
 	public static final double DISCOUNT_RATE_SENIOR = 0.25;				//fixed discount rate of 0.25
 	public static final double DISCOUNT_RATE_NONE = 0.0;				//fixed discount rate of 0.0
-	public static final String ITEM_NAME_PREMIUM = "Premium Sod";		//fixed name of "Premium Sod"
-	public static final String ITEM_NAME_SPECIAL = "Special Sod";		//fixed name of "Special Sod"
+	public static final String ITEM_NAME_PREMIUM = "Premium Sod";			//fixed name of "Premium Sod"
+	public static final String ITEM_NAME_SPECIAL = "Special Sod";			//fixed name of "Special Sod"
 	public static final String ITEM_NAME_BASIC = "Basic Sod";			//fixed name of "Basic Sod"
-	public static final String ITEM_NAME_RETURN = "Return to Main Menu";//fixed name for "Return to Main Menu"
+	public static final String ITEM_NAME_RETURN = "Return to Main Menu";		//fixed name for "Return to Main Menu"
 	public static final double ITEM_PRICE_PREMIUM = 55.95;				//fixed price of $55.95
 	public static final double ITEM_PRICE_SPECIAL = 24.95;				//fixed price of $24.95
 	public static final double ITEM_PRICE_BASIC = 15.95;				//fixed price of $15.95
-	public static final int RESET_VALUE = 0;							//fixed reset value of 0
+	public static final int RESET_VALUE = 0;					//fixed reset value of 0
 
 	//**** MAIN METHOD ****
 	//start of main method
@@ -41,15 +41,15 @@ public class LittonMainClass
 		String userName = "";			//name of current user
 		char rateSelection = ' ';		//menu selection for discount menu
 		char itemSelection = ' ';		//menu selection for item menu
-		int howMany = 0;				//quantity of item
+		int howMany = 0;			//quantity of item
 		String discountName = "";		//name of discount
 		double discountRate = 0.0;		//discount rate
 		String itemName = "";			//name of item
 		double itemPrice = 0.0;			//price of item
-		double discountAmount = 0.0;	//discount amount
+		double discountAmount = 0.0;		//discount amount
 		double discountPrice = 0.0;		//discount price
 		double subTotal = 0.0;			//sub total of transaction
-		double tax = 0.0;				//tax of transaction
+		double tax = 0.0;			//tax of transaction
 		double totalCost = 0.0;			//total cost of transaction
 		int memberCount = 0;			//count of member discounts selected
 		int seniorCount = 0;			//count of senior discounts selected
@@ -57,7 +57,7 @@ public class LittonMainClass
 		double grandTotal = 0.0;		//sum of all total costs
 		int premiumCount = 0;			//count of times the premium option was selected
 		int specialCount = 0;			//count of times the special option was selected
-		int basicCount = 0;				//count of times the basic option was selected
+		int basicCount = 0;			//count of times the basic option was selected
 		double purchaseAmt = 0.0;		//amount of current purchase
 
 		//welcome banner
